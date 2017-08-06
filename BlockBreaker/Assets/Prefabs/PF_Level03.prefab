@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 212960912289188692}
   m_Layer: 0
   m_Name: Block45
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 212895680001506186}
   m_Layer: 0
   m_Name: Block43
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 212537825787204752}
   m_Layer: 0
   m_Name: Block20
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 212290586984240038}
   m_Layer: 0
   m_Name: Block09
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 212504731379368748}
   m_Layer: 0
   m_Name: Block41
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 212320205399553540}
   m_Layer: 0
   m_Name: Block19
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 212784120989539606}
   m_Layer: 0
   m_Name: Block23
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 212035626497760486}
   m_Layer: 0
   m_Name: Block07
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 212349989526840378}
   m_Layer: 0
   m_Name: Block03
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 212586747273043226}
   m_Layer: 0
   m_Name: Block44
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 212184819176141612}
   m_Layer: 0
   m_Name: Block34
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 212120798927198970}
   m_Layer: 0
   m_Name: Block37
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 212270574645937462}
   m_Layer: 0
   m_Name: Block31
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 212866571735205426}
   m_Layer: 0
   m_Name: Block30
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 212196038798772894}
   m_Layer: 0
   m_Name: Block13
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 212610003575896360}
   m_Layer: 0
   m_Name: Block04
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 212278766337358972}
   m_Layer: 0
   m_Name: Block28
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 212297916812632628}
   m_Layer: 0
   m_Name: Block18
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 212428881040966172}
   m_Layer: 0
   m_Name: Block33
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 212521332794038820}
   m_Layer: 0
   m_Name: Block38
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 212821857697482144}
   m_Layer: 0
   m_Name: Block48
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 212392507576243584}
   m_Layer: 0
   m_Name: Block46
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 212353809895923086}
   m_Layer: 0
   m_Name: Block24
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 212017672333705968}
   m_Layer: 0
   m_Name: Block42
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 212482659858844804}
   m_Layer: 0
   m_Name: Block10
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 212166102094257502}
   m_Layer: 0
   m_Name: Block12
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 212816091014596252}
   m_Layer: 0
   m_Name: Block02
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 212939789008351056}
   m_Layer: 0
   m_Name: Block36
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 212772760744983538}
   m_Layer: 0
   m_Name: Block27
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 212533716039235994}
   m_Layer: 0
   m_Name: Block25
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 212420169181223936}
   m_Layer: 0
   m_Name: Block05
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 212254350098658562}
   m_Layer: 0
   m_Name: Block21
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 212674937513942034}
   m_Layer: 0
   m_Name: Block15
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 212483260906269560}
   m_Layer: 0
   m_Name: Block32
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 212347049229059052}
   m_Layer: 0
   m_Name: Block08
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,7 +788,7 @@ GameObject:
   - component: {fileID: 212278035796768468}
   m_Layer: 0
   m_Name: Block17
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -807,7 +807,7 @@ GameObject:
   - component: {fileID: 212180297965617924}
   m_Layer: 0
   m_Name: Block06
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 212444427791071006}
   m_Layer: 0
   m_Name: Block40
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -861,7 +861,7 @@ GameObject:
   - component: {fileID: 212359410430226262}
   m_Layer: 0
   m_Name: Block47
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -880,7 +880,7 @@ GameObject:
   - component: {fileID: 212091892586678544}
   m_Layer: 0
   m_Name: Block39
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 212546051354044776}
   m_Layer: 0
   m_Name: Block22
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 212055891059901742}
   m_Layer: 0
   m_Name: Block26
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -937,7 +937,7 @@ GameObject:
   - component: {fileID: 212248834467359072}
   m_Layer: 0
   m_Name: Block14
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 212831301195769380}
   m_Layer: 0
   m_Name: Block11
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 212348294087389630}
   m_Layer: 0
   m_Name: Block35
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 212527279445826210}
   m_Layer: 0
   m_Name: Block16
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 212651773520407674}
   m_Layer: 0
   m_Name: Block01
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 212166292508513244}
   m_Layer: 0
   m_Name: Block29
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4273,8 +4273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4289,8 +4287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114016526009304018
 MonoBehaviour:
@@ -4303,8 +4299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114037686077227882
 MonoBehaviour:
@@ -4317,8 +4311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114082796432394320
@@ -4332,8 +4324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114083174657242468
@@ -4347,8 +4337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114125447258249420
@@ -4362,8 +4350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4378,8 +4364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114227552157463360
 MonoBehaviour:
@@ -4392,8 +4376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4408,8 +4390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114320271831222726
 MonoBehaviour:
@@ -4422,8 +4402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4438,8 +4416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4454,8 +4430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114342627280953098
@@ -4469,8 +4443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114396136759413028
@@ -4495,8 +4467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114418545584173250
 MonoBehaviour:
@@ -4509,8 +4479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114425977204549094
@@ -4524,8 +4492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114430433909467982
@@ -4539,8 +4505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114449151798415148
 MonoBehaviour:
@@ -4553,8 +4517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114453580874033866
@@ -4568,8 +4530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114466424582905968
@@ -4583,8 +4543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4599,8 +4557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114481370071107902
@@ -4614,8 +4570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4630,8 +4584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114519583492372660
 MonoBehaviour:
@@ -4644,8 +4596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114547711694948424
 MonoBehaviour:
@@ -4658,8 +4608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114565233650849602
 MonoBehaviour:
@@ -4672,8 +4620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114570865200344226
 MonoBehaviour:
@@ -4686,8 +4632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114577757461563686
 MonoBehaviour:
@@ -4700,8 +4644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114589615509892772
 MonoBehaviour:
@@ -4714,8 +4656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4730,8 +4670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4746,8 +4684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114643245873474160
 MonoBehaviour:
@@ -4760,8 +4696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4776,8 +4710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4792,8 +4724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4808,8 +4738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4824,8 +4752,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4840,8 +4766,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114794681639245474
 MonoBehaviour:
@@ -4854,8 +4778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114797773251717032
 MonoBehaviour:
@@ -4868,8 +4790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114828154921355796
@@ -4883,8 +4803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114845357284695302
@@ -4898,8 +4816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114853610433224664
@@ -4913,8 +4829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 1
   m_brickSprites: []
 --- !u!114 &114883893926261124
 MonoBehaviour:
@@ -4927,8 +4841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4943,8 +4855,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114905435252223330
@@ -4971,8 +4881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 3
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
   - {fileID: 21300004, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
@@ -4987,8 +4895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114974292806475766
@@ -5002,8 +4908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_hitsTaken: 0
-  m_maxHits: 2
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!124 &124794896547676308

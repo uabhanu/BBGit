@@ -14,15 +14,9 @@ public class BrickBlock : MonoBehaviour
         m_hitsTaken = 0;
     }
 
-    void LoadSprite()
+    void HandleHits()
     {
-        int spriteIndex = m_hitsTaken - 1;
-        m_brickRenderer.sprite = m_brickSprites[spriteIndex];
-    }
-
-    void OnCollisionEnter2D(Collision2D col2D)
-    {
-        if(col2D.gameObject.tag.Equals("Ball"))
+        if(gameObject.tag.Equals("Breakable"))
         {
             m_hitsTaken++;
             int m_maxHits = m_brickSprites.Length + 1;    
@@ -36,5 +30,16 @@ public class BrickBlock : MonoBehaviour
                 LoadSprite();
             }
         }
+    }
+
+    void LoadSprite()
+    {
+        int spriteIndex = m_hitsTaken - 1;
+        m_brickRenderer.sprite = m_brickSprites[spriteIndex];
+    }
+
+    void OnCollisionEnter2D(Collision2D col2D)
+    {
+        HandleHits();
     }
 }
