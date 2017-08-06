@@ -4,26 +4,15 @@ using UnityEngine;
 
 public class BrickBlock : MonoBehaviour
 {
-    [SerializeField] int m_hitsTaken , m_maxHits;
+    int m_hitsTaken;
     [SerializeField] Sprite[] m_brickSprites;
     SpriteRenderer m_brickRenderer;
 
-	void Start()
+    void Start()
     {
-		m_brickRenderer = GetComponent<SpriteRenderer>();
-	}
-	
-	void Update()
-    {
-		if(m_hitsTaken >= m_maxHits)
-        {
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
-            LoadSprite();
-        }
-	}
+        m_brickRenderer = GetComponent<SpriteRenderer>();
+        m_hitsTaken = 0;
+    }
 
     void LoadSprite()
     {
@@ -36,6 +25,16 @@ public class BrickBlock : MonoBehaviour
         if(col2D.gameObject.tag.Equals("Ball"))
         {
             m_hitsTaken++;
+            int m_maxHits = m_brickSprites.Length + 1;    
+
+            if(m_hitsTaken >= m_maxHits)
+            {
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                LoadSprite();
+            }
         }
     }
 }
