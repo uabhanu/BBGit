@@ -3,16 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuButton : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
-    public void Quit()
+    public void BrickDestroyed()
     {
-        Debug.Log("QuitButton Pressed");
+        if(BrickBlock.m_breakableBricksCount <= 0)
+        {
+            LoadScene("Win");
+        }
     }
 
     public void LoadScene(string name)
     {
         Debug.Log("StartButton Pressed");
         SceneManager.LoadScene(name);
+    }
+
+    public void Quit()
+    {
+        Debug.Log("QuitButton Pressed");
     }
 }

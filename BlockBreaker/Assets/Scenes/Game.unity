@@ -141,7 +141,7 @@ MonoBehaviour:
   - {fileID: 1465052939139600, guid: e89ae18628ac16140a857f53f774055f, type: 2}
   - {fileID: 1174452979587734, guid: e700bb9e21e996346ab9268449f22bf1, type: 2}
   - {fileID: 1302656375287314, guid: b57de05fb2846814f9f3e8c781a30f51, type: 2}
-  m_playerLevel: 2
+  m_playerLevel: 0
 --- !u!4 &1417249056
 Transform:
   m_ObjectHideFlags: 0

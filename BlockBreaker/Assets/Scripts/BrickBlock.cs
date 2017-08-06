@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class BrickBlock : MonoBehaviour
 {
+    bool m_isBreakable;
+    public static int m_breakableBricksCount = 0;
     int m_hitsTaken;
+    LevelManager m_levelManager;
     [SerializeField] Sprite[] m_brickSprites;
     SpriteRenderer m_brickRenderer;
 
@@ -12,23 +15,29 @@ public class BrickBlock : MonoBehaviour
     {
         m_brickRenderer = GetComponent<SpriteRenderer>();
         m_hitsTaken = 0;
+        m_isBreakable = this.tag == "Breakable";
+        m_levelManager = FindObjectOfType<LevelManager>();
+
+        if(m_isBreakable)
+        {
+            m_breakableBricksCount++;
+        }
     }
 
     void HandleHits()
     {
-        if(gameObject.tag.Equals("Breakable"))
-        {
-            m_hitsTaken++;
-            int m_maxHits = m_brickSprites.Length + 1;    
+        m_hitsTaken++;
+        int m_maxHits = m_brickSprites.Length + 1;    
 
-            if(m_hitsTaken >= m_maxHits)
-            {
-                this.gameObject.SetActive(false);
-            }
-            else
-            {
-                LoadSprite();
-            }
+        if(m_hitsTaken >= m_maxHits)
+        {
+            m_breakableBricksCount--;
+            m_levelManager.BrickDestroyed();
+            this.gameObject.SetActive(false);
+        }
+        else
+        {
+            LoadSprite();
         }
     }
 
@@ -40,6 +49,9 @@ public class BrickBlock : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col2D)
     {
-        HandleHits();
+        if(m_isBreakable)
+        {
+            HandleHits();
+        }
     }
 }
