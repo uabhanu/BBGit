@@ -13,6 +13,11 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void GameOver()
+    {
+        LoadScene("Lose");
+    }
+
     public void LoadScene(string name)
     {
         Debug.Log("StartButton Pressed");

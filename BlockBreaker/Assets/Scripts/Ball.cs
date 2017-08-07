@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Ball : MonoBehaviour
 {
     bool m_gameStarted;
+    LevelManager m_levelManager;
     [SerializeField] Paddle m_paddleController;
     Rigidbody2D m_ballBody2D;
     [SerializeField] string m_levelName;
@@ -14,6 +15,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         m_ballBody2D = GetComponent<Rigidbody2D>();
+        m_levelManager = FindObjectOfType<LevelManager>();
         m_paddleToBallDistance = transform.position - m_paddleController.transform.position;    
     }
 
@@ -36,11 +38,11 @@ public class Ball : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col2D)
+    void OnTriggerEnter2D(Collider2D tri2D)
     {
-        if(col2D.gameObject.tag.Equals("GameOver"))
+        if(tri2D.gameObject.tag.Equals("GameOver"))
         {
-            SceneManager.LoadScene(m_levelName);
+            m_levelManager.GameOver();
         }
     }
 }

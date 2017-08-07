@@ -103,25 +103,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1070773011994986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4111405125551596}
-  - component: {fileID: 20731350456994514}
-  - component: {fileID: 92054490036877512}
-  - component: {fileID: 124827529224478672}
-  - component: {fileID: 81137793349099966}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1152504965668260
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,25 +530,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1618925612165516
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4984296858328934}
-  - component: {fileID: 114209891961722880}
-  - component: {fileID: 58032296407764454}
-  - component: {fileID: 50173361253822526}
-  - component: {fileID: 212768030877974568}
-  m_Layer: 0
-  m_Name: Ball
-  m_TagString: Ball
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1620791564226764
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,25 +847,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1811934617512950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4813649140584132}
-  - component: {fileID: 61856651976506344}
-  - component: {fileID: 114118148932351992}
-  - component: {fileID: 50740549273706236}
-  - component: {fileID: 212724375170191686}
-  m_Layer: 0
-  m_Name: Paddle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1814621718171104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,19 +1125,6 @@ Transform:
   m_Father: {fileID: 4683630488537244}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4111405125551596
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1070773011994986}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: 6, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4683630488537244}
-  m_RootOrder: 54
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4127150844472210
 Transform:
   m_ObjectHideFlags: 1
@@ -1362,7 +1292,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4683630488537244}
-  m_RootOrder: 56
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4302023638346832
 Transform:
@@ -1739,9 +1669,6 @@ Transform:
   - {fileID: 4341233369353702}
   - {fileID: 4998917224012078}
   - {fileID: 4251797359965166}
-  - {fileID: 4984296858328934}
-  - {fileID: 4111405125551596}
-  - {fileID: 4813649140584132}
   - {fileID: 4296060504496888}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1798,19 +1725,6 @@ Transform:
   m_Father: {fileID: 4683630488537244}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4813649140584132
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811934617512950}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: 0.6, z: 0}
-  m_LocalScale: {x: 1.4, y: 1.28, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4683630488537244}
-  m_RootOrder: 55
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4826592829831066
 Transform:
   m_ObjectHideFlags: 1
@@ -1863,19 +1777,6 @@ Transform:
   m_Father: {fileID: 4683630488537244}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4984296858328934
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1618925612165516}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: 0.83, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4683630488537244}
-  m_RootOrder: 53
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4997216215743996
 Transform:
   m_ObjectHideFlags: 1
@@ -1902,42 +1803,6 @@ Transform:
   m_Father: {fileID: 4683630488537244}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &20731350456994514
-Camera:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1070773011994986}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 6
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!50 &50003233541058900
 Rigidbody2D:
   serializedVersion: 4
@@ -2073,26 +1938,6 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!50 &50173361253822526
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1618925612165516}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -2618,26 +2463,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!50 &50740549273706236
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811934617512950}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 100
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!50 &50767727839666600
 Rigidbody2D:
   serializedVersion: 4
@@ -2938,21 +2763,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58032296407764454
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1618925612165516}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 5f20190d1b6c8f14bac96590ce967c7e, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.25
 --- !u!61 &61000253535689418
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -4053,31 +3863,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.32}
   m_EdgeRadius: 0
---- !u!61 &61856651976506344
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811934617512950}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.03}
-  m_SpriteTilingProperty:
-    border: {x: 0.15625, y: 0.296875, z: 0.15625, w: 0.3515625}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.15625, y: 0.9765625}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!61 &61858107909281496
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -4278,20 +4063,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.32}
   m_EdgeRadius: 0
---- !u!81 &81137793349099966
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1070773011994986}
-  m_Enabled: 1
---- !u!92 &92054490036877512
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1070773011994986}
-  m_Enabled: 1
 --- !u!114 &114010832015631424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4303,6 +4074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114021546918811824
@@ -4316,6 +4088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114039697005394230
 MonoBehaviour:
@@ -4328,6 +4101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114060889759994882
 MonoBehaviour:
@@ -4340,6 +4114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114091744812959126
 MonoBehaviour:
@@ -4352,6 +4127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114097125355145418
@@ -4365,6 +4141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114099392888812592
 MonoBehaviour:
@@ -4377,19 +4154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
---- !u!114 &114118148932351992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811934617512950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b02ddf5505dbc7043a85873085aae0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114171762374689192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4401,6 +4168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114202765205041400
 MonoBehaviour:
@@ -4413,6 +4181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114205417320540670
 MonoBehaviour:
@@ -4425,20 +4194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
---- !u!114 &114209891961722880
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1618925612165516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d3c8b1466ebb3149aecc81a018fd8e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_paddleController: {fileID: 114118148932351992}
-  m_levelName: Lose
 --- !u!114 &114215639724399398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4450,6 +4207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114217182367095498
 MonoBehaviour:
@@ -4462,6 +4220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114240865570653998
@@ -4475,6 +4234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114275067614055188
 MonoBehaviour:
@@ -4487,6 +4247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114275939488521964
 MonoBehaviour:
@@ -4499,6 +4260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114288128825596088
@@ -4512,6 +4274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114294529912591594
 MonoBehaviour:
@@ -4524,6 +4287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114343423798847240
@@ -4537,6 +4301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114389263239839066
@@ -4550,6 +4315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114416196540622796
 MonoBehaviour:
@@ -4562,6 +4328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114416416013708018
@@ -4575,6 +4342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114458748680740518
 MonoBehaviour:
@@ -4587,6 +4355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114474409050459652
 MonoBehaviour:
@@ -4599,6 +4368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114526350564693764
 MonoBehaviour:
@@ -4611,6 +4381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114540457794831218
 MonoBehaviour:
@@ -4623,6 +4394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114554135243497018
 MonoBehaviour:
@@ -4635,6 +4407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114561533393928554
@@ -4648,6 +4421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114606816633104390
 MonoBehaviour:
@@ -4660,6 +4434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114638783802370292
@@ -4673,6 +4448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114697559526900578
 MonoBehaviour:
@@ -4685,6 +4461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114709070708678398
 MonoBehaviour:
@@ -4697,6 +4474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114732138277797580
@@ -4710,6 +4488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114750210910782482
 MonoBehaviour:
@@ -4722,6 +4501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114774286604804430
 MonoBehaviour:
@@ -4734,6 +4514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114788402416621386
 MonoBehaviour:
@@ -4746,6 +4527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114840891451864512
 MonoBehaviour:
@@ -4758,6 +4540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114883636678782648
 MonoBehaviour:
@@ -4770,6 +4553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114891009487316192
 MonoBehaviour:
@@ -4782,6 +4566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114899442791525816
 MonoBehaviour:
@@ -4794,6 +4579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114912385606997968
@@ -4807,6 +4593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114913861752531872
@@ -4820,6 +4607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114914468767337708
@@ -4844,6 +4632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114917778409766194
 MonoBehaviour:
@@ -4856,6 +4645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114929111183253496
@@ -4869,6 +4659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114949201279307014
 MonoBehaviour:
@@ -4881,6 +4672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114949950439745842
 MonoBehaviour:
@@ -4893,6 +4685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!114 &114962139087336688
@@ -4906,6 +4699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
 --- !u!114 &114983791135377922
 MonoBehaviour:
@@ -4918,14 +4712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca8b9c690b26c540b29ddd7892b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_brickSprites: []
---- !u!124 &124827529224478672
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1070773011994986}
-  m_Enabled: 1
 --- !u!212 &212003482386134962
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -6438,48 +6226,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!212 &212724375170191686
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811934617512950}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1431189583
-  m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3524659e978524b44bf0cc11017b2f10, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212729919113897252
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -6560,48 +6306,6 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 0.640625}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!212 &212768030877974568
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1618925612165516}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 522193967
-  m_SortingLayer: 4
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d9b590487d21c0947903207624132525, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

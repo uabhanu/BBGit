@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BrickBlock : MonoBehaviour
 {
+    [SerializeField] AudioClip m_brickSound;
     bool m_isBreakable;
     public static int m_breakableBricksCount = 0;
     int m_hitsTaken;
@@ -49,6 +50,8 @@ public class BrickBlock : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col2D)
     {
+        AudioSource.PlayClipAtPoint(m_brickSound , transform.position);
+
         if(m_isBreakable)
         {
             HandleHits();
