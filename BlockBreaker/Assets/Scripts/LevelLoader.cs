@@ -15,6 +15,8 @@ public class LevelLoader : MonoBehaviour
 
     void Start()
     {
+        BrickBlock.m_breakableBricksCount = 0;
+
         m_levelToLoad = GameObject.FindGameObjectWithTag("Level");
 
         if(m_levelToLoad == null)

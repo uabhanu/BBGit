@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
-    Ball m_ballController;
+    Ball m_ball;
     [SerializeField] bool m_autoPlay;
 
 	void Start()
     {
-		m_ballController = GameObject.FindObjectOfType<Ball>();
+		m_ball = GameObject.FindObjectOfType<Ball>();
 	}
 	
 	void Update()
@@ -31,7 +31,7 @@ public class Paddle : MonoBehaviour
 
     void AutoPlay()
     {
-        Vector3 ballPosition = m_ballController.transform.position;
+        Vector3 ballPosition = m_ball.transform.position;
         Vector3 paddlePosition = new Vector3(0.5f , transform.position.y , 0f);
         paddlePosition.x = Mathf.Clamp(ballPosition.x , 0.5f , 15.5f);
         transform.position = paddlePosition;

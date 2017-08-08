@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 1763973089}
   - component: {fileID: 1763973088}
   m_Layer: 5
-  m_Name: BlockBreakerUI
+  m_Name: WinUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

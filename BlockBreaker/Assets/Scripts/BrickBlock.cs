@@ -6,6 +6,7 @@ public class BrickBlock : MonoBehaviour
 {
     [SerializeField] AudioClip m_brickSound;
     bool m_isBreakable;
+    [SerializeField] float m_volume;
     public static int m_breakableBricksCount = 0;
     int m_hitsTaken;
     LevelManager m_levelManager;
@@ -22,6 +23,7 @@ public class BrickBlock : MonoBehaviour
         if(m_isBreakable)
         {
             m_breakableBricksCount++;
+            Debug.Log(m_breakableBricksCount);
         }
     }
 
@@ -33,6 +35,7 @@ public class BrickBlock : MonoBehaviour
         if(m_hitsTaken >= m_maxHits)
         {
             m_breakableBricksCount--;
+            Debug.Log(m_breakableBricksCount);
             m_levelManager.BrickDestroyed();
             this.gameObject.SetActive(false);
         }
@@ -50,7 +53,7 @@ public class BrickBlock : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col2D)
     {
-        AudioSource.PlayClipAtPoint(m_brickSound , transform.position);
+        AudioSource.PlayClipAtPoint(m_brickSound , transform.position , m_volume);
 
         if(m_isBreakable)
         {
