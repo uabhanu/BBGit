@@ -38,6 +38,12 @@ public class Ball : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D col2D)
+    {
+        Vector2 randomBounce = new Vector2(Random.Range(0f , 0.2f) , Random.Range(0f , 0.2f));
+        m_ballBody2D.velocity += randomBounce;
+    }
+
     void OnTriggerEnter2D(Collider2D tri2D)
     {
         if(tri2D.gameObject.tag.Equals("GameOver"))
