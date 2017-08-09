@@ -34,8 +34,8 @@ public class BrickBlock : MonoBehaviour
 
         if(m_hitsTaken >= m_maxHits)
         {
+            PuffSmoke();
             m_breakableBricksCount--;
-            Debug.Log(m_breakableBricksCount);
             m_levelManager.BrickDestroyed();
             this.gameObject.SetActive(false);
         }
@@ -59,5 +59,10 @@ public class BrickBlock : MonoBehaviour
         {
             HandleHits();
         }
+    }
+
+    void PuffSmoke()
+    {
+        //Logic for Particle System obj SmokeObj emmitting smoke with color of brick destroyed, here
     }
 }

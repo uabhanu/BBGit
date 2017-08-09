@@ -6,8 +6,15 @@ public class Paddle : MonoBehaviour
 {
     Ball m_ball;
     [SerializeField] bool m_autoPlay;
+    [SerializeField] float m_maxXConstraint , m_minXConstraint;
 
-	void Start()
+    void Reset()
+    {
+        m_maxXConstraint = 15.5f;
+        m_minXConstraint = 0.5f;
+    }
+
+    void Start()
     {
 		m_ball = GameObject.FindObjectOfType<Ball>();
 	}
@@ -33,7 +40,7 @@ public class Paddle : MonoBehaviour
     {
         Vector3 ballPosition = m_ball.transform.position;
         Vector3 paddlePosition = new Vector3(0.5f , transform.position.y , 0f);
-        paddlePosition.x = Mathf.Clamp(ballPosition.x , 0.5f , 15.5f);
+        paddlePosition.x = Mathf.Clamp(ballPosition.x , m_minXConstraint , m_maxXConstraint);
         transform.position = paddlePosition;
     }
 
@@ -41,7 +48,7 @@ public class Paddle : MonoBehaviour
     {
         float mousePosition = (Input.mousePosition.x / Screen.width) * 16;
         Vector3 paddlePosition = new Vector3(0.5f , transform.position.y , 0f);
-        paddlePosition.x = Mathf.Clamp(mousePosition , 0.5f , 15.5f);
+        paddlePosition.x = Mathf.Clamp(mousePosition , m_minXConstraint , m_maxXConstraint);
         transform.position = paddlePosition;
     }
 }
