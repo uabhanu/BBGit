@@ -101,6 +101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_brickSound: {fileID: 8300000, guid: 7baa59ee53bd1c44a96a12ee8e153d1a, type: 3}
   m_volume: 0.2
+  m_smokeObj: {fileID: 1155587048359644, guid: 403d1833ece74c243a8c7b5bf55c6172, type: 2}
+  m_puffParticleSystem: {fileID: 198706202421228856, guid: 403d1833ece74c243a8c7b5bf55c6172,
+    type: 2}
   m_brickSprites:
   - {fileID: 21300002, guid: f21ae0cb733240043be070a6f7380fc6, type: 3}
 --- !u!212 &212282135829508616

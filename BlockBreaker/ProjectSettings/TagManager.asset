@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Level
   - Breakable
+  - Puff
   layers:
   - Default
   - TransparentFX

@@ -7,9 +7,11 @@ public class BrickBlock : MonoBehaviour
     [SerializeField] AudioClip m_brickSound;
     bool m_isBreakable;
     [SerializeField] float m_volume;
+    [SerializeField] GameObject m_smokeObj;
     public static int m_breakableBricksCount = 0;
     int m_hitsTaken;
     LevelManager m_levelManager;
+    [SerializeField] ParticleSystem m_puffParticleSystem;
     [SerializeField] Sprite[] m_brickSprites;
     SpriteRenderer m_brickRenderer;
 
@@ -63,6 +65,8 @@ public class BrickBlock : MonoBehaviour
 
     void PuffSmoke()
     {
-        //Logic for Particle System obj SmokeObj emmitting smoke with color of brick destroyed, here
+        var puffParticleSystemMain = m_puffParticleSystem.main;
+        puffParticleSystemMain.startColor = m_brickRenderer.color;
+        Instantiate(m_smokeObj , transform.position , Quaternion.identity);
     }
 }
